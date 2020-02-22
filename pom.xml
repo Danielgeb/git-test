@@ -29,12 +29,12 @@
 		<cloudHubDeployment>
 				  <uri>https://anypoint.mulesoft.com</uri>
 		          <muleVersion>${mule.version}</muleVersion> 
-		          <username>${username}</username> 
-		          <password>${password}</password> 
+		          <username>${anypoint.username}</username> 
+		          <password>${anypoint.password}</password> 
 		          <workers>${workers}</workers>
 		          <workerType>${worker.type}</workerType>
-		          <environment>${environment}</environment> 
-		          <applicationName>${application.name}</applicationName>
+		          <environment>${anypoint.environment}</environment> 
+		          <applicationName>git-test</applicationName>
 		          <region>${us-east-2}</region>
 		          <objectStoreV2>true</objectStoreV2>
         </cloudHubDeployment>
