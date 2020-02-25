@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy Application') {
             steps {
-                bat 'mvn clean package deploy -Dmule.version=4.2.2 -Dusername=Yodit -Dpassword=Merhawit06 -Denvironment=Sandbox -Dworkers=1 -Dworker.type=MICRO -Dapplication.name=git-test-API -DmuleDeploy'
+                bat 'mvn clean package deploy -Dmule.version=4.2.2 -Dusername=Yodit -Dpassword=Merhawit06 -Denvironment=Sandbox -Dworkers=1 -Dworker.type=MICRO -Dapplication.name=git-test -DmuleDeploy'
             }
         }
     }
